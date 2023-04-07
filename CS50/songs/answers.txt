@@ -1,0 +1,10 @@
+If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?:
+
+The average energy of the songs is 0.65906 out of 1 so it's like 66% and I think it's pretty much.
+Also the loudness is around 57% and the list contains different range of songs so I would describe it as PURPLE.
+
+Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener.
+What better ways of calculating this aura would you propose?:
+
+I think the better way to calculate aura would be using genres like in films, whether it's a sad music or happy
+and make assumptions based on that.
