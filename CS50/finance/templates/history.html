@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Transactions
+{% endblock %}
+
+{% block main %}
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Amount</th>
+                    <th>Price</th>
+                    <th>Date</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr><td>-----</td><td>-----</td><td>-----</td><td>-----</td><td>-----</td></tr>
+                {% for transaction in transactions %}
+                <tr>
+                    <td>{{ transaction.symbol }}</td>
+                    <td>{{ transaction.amount }}</td>
+                    <td>{{ transaction.price }}</td>
+                    <td>{{ transaction.date }}</td>
+                    <td>{{ transaction.action }}</td>
+                </tr>
+                {% endfor %}
+                <tr><td>-----</td><td>-----</td><td>-----</td><td>-----</td><td>-----</td></tr>
+            </tbody>
+
+        </table>
+
+{% endblock %}
